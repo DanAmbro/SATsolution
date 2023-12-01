@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-SATapp.UI.MVC-7bf543a3-a7ba-406e-8201-db778449a632</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.25" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.25" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.25">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\_Archive\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Courses\Create.cshtml" />
+    <None Include="Views\Courses\Delete.cshtml" />
+    <None Include="Views\Courses\Details.cshtml" />
+    <None Include="Views\Courses\Edit.cshtml" />
+    <None Include="Views\Courses\Index.cshtml" />
+    <None Include="Views\Enrollments\Create.cshtml" />
+    <None Include="Views\Enrollments\Delete.cshtml" />
+    <None Include="Views\Enrollments\Details.cshtml" />
+    <None Include="Views\Enrollments\Edit.cshtml" />
+    <None Include="Views\Enrollments\Index.cshtml" />
+    <None Include="Views\Home\Contact.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\ScheduledClasses\Create.cshtml" />
+    <None Include="Views\ScheduledClasses\Delete.cshtml" />
+    <None Include="Views\ScheduledClasses\Details.cshtml" />
+    <None Include="Views\ScheduledClasses\Edit.cshtml" />
+    <None Include="Views\ScheduledClasses\Index.cshtml" />
+    <None Include="Views\ScheduledClassStatus\Create.cshtml" />
+    <None Include="Views\ScheduledClassStatus\Delete.cshtml" />
+    <None Include="Views\ScheduledClassStatus\Details.cshtml" />
+    <None Include="Views\ScheduledClassStatus\Edit.cshtml" />
+    <None Include="Views\ScheduledClassStatus\Index.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\OriginalLayout.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LoginPartial.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\StudentStatus\Create.cshtml" />
+    <None Include="Views\StudentStatus\Delete.cshtml" />
+    <None Include="Views\StudentStatus\Details.cshtml" />
+    <None Include="Views\StudentStatus\Edit.cshtml" />
+    <None Include="Views\StudentStatus\Index.cshtml" />
+    <None Include="Views\Students\Create.cshtml" />
+    <None Include="Views\Students\Delete.cshtml" />
+    <None Include="Views\Students\Details.cshtml" />
+    <None Include="Views\Students\Edit.cshtml" />
+    <None Include="Views\Students\Index.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SATapp.DATA.EF\SATapp.DATA.EF.csproj" />
+  </ItemGroup>
+
+</Project>
